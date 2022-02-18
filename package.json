@@ -1,0 +1,35 @@
+{
+  "name": "asj-project4c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarno-yarva/asj-project4c.git"
+  },
+  "author": "Yaroslav Yakovlev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yarno-yarva/asj-project4c/issues"
+  },
+  "homepage": "https://github.com/yarno-yarva/asj-project4c#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
